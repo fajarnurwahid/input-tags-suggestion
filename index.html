@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<title>Input Tags With Suggestion</title>
+</head>
+<body>
+
+	<div class="container">
+		<ul class="list-tag">
+
+			<input type="text" class="input-tag" placeholder="Add tag">
+
+			<div class="suggest-wrapper">
+				<ul class="suggestion">
+				</ul>
+			</div>
+		</ul>
+		<p class="help-text">Use comma to separate each tag.</p>
+		<div class="bottom">
+			<button class="remove-all" onclick="removeAll()">Remove all</button>
+			<span><span class="num">0</span> tags</span>
+		</div>
+	</div>
+	
+
+	<script src="countries.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
